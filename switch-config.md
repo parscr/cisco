@@ -53,3 +53,9 @@ Configure a Banner
 Sw-Floor-1# configure terminal
 Sw-Floor-1(config)# banner motd #Authorized Access Only#
 ```
+Save Configuration Files to NVRAM
+```
+Sw-Floor-1#copy running-config startup-config
+Sw-Floor-1#show startup-config
+```
+```
