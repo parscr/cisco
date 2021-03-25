@@ -1,5 +1,10 @@
 Basic Switch Configuration.
 
+enter privileged EXEC mode
+```
+Switch> enable
+Switch# 
+```
 Configuring a Hostname
 ```
 Switch# configure terminal
