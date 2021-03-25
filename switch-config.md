@@ -59,7 +59,7 @@ Sw-Floor-1#copy running-config startup-config
 Sw-Floor-1#show startup-config
 ```
 Configure Switch virtual interfaces (SVIs)
-
+To access a switch remotely, an IP address and a subnet mask must be configured on the SVI
 ```
 Sw-Floor-1# configure terminal
 Sw-Floor-1(config)# interface vlan 1
