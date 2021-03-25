@@ -39,6 +39,7 @@ Sw-Floor-1(config-line)# end
 Sw-Floor-1#
 ```
 Encrypt passwords
+```
 Sw-Floor-1# configure terminal
 Sw-Floor-1(config)# service password-encryption
 Sw-Floor-1(config)#
