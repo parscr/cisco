@@ -58,3 +58,11 @@ Save Configuration Files to NVRAM
 Sw-Floor-1#copy running-config startup-config
 Sw-Floor-1#show startup-config
 ```
+Configure Switch virtual interfaces (SVIs)
+
+```
+Sw-Floor-1# configure terminal
+Sw-Floor-1(config)# interface vlan 1
+Sw-Floor-1(config-if)# ip address 192.168.1.20 255.255.255.0
+Sw-Floor-1(config-if)# no shutdown
+```
