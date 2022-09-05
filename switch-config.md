@@ -32,7 +32,11 @@ Sw-Floor-1#
 Virtual terminal (vty) ssh/telnet password
 ```
 Sw-Floor-1# configure terminal
+Sw-Floor-1(config)# ip domain homelab
+Sw-Floor-1(config)# crypto key generate rsa (set 1024)
+Sw-Floor-1(config)# username root password cisco
 Sw-Floor-1(config)# line vty 0 15
+Sw-Floor-1(config-line)# transport input ssh
 Sw-Floor-1(config-line)# password cisco
 Sw-Floor-1(config-line)# login
 Sw-Floor-1(config-line)# end
